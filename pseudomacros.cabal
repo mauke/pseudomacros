@@ -12,7 +12,7 @@ License:         BSD3
 License-File:    LICENSE
 Author:          Lukas Mai
 Maintainer:      <l.mai@web.de>
-
+extra-source-files: CHANGES
 source-repository head
   type: git
   location: https://github.com/mauke/pseudomacros
