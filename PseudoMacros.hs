@@ -52,8 +52,7 @@ module PseudoMacros (
 ) where
 
 import Language.Haskell.TH.Syntax
-import Data.Time (formatTime, getZonedTime)
-import System.Locale (defaultTimeLocale)
+import Data.Time (formatTime, getZonedTime, defaultTimeLocale)
 
 __FILE__, __LINE__ , __MODULE__, __PACKAGE__ :: Q Exp
 __FILE__    = lift . loc_filename    =<< location
